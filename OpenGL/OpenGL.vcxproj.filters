@@ -2,13 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c" />
-    <ClCompile Include="HelloWindow.cpp">
-      <Filter>GettingStarted</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="GettingStarted">
-      <UniqueIdentifier>{4eb35ca3-366a-4427-a82c-3d3e4b3203ba}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="GettingStarted\HelloWindow.cpp" />
   </ItemGroup>
 </Project>
